@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyProjectModuleRules
-build_property.ProjectDir = C:\Users\rexer\Documents\GitHub\sgda-halloween-jam\MyProject\Intermediate\Build\BuildRulesProjects\MyProjectModuleRules\
+build_property.ProjectDir = C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\BuildRulesProjects\MyProjectModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

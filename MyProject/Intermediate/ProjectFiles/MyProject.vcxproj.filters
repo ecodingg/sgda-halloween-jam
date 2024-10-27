@@ -11,6 +11,8 @@
     <None Include="..\..\Source\MyProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\MyProject.code-workspace" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -52,6 +54,30 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject\MyProjectGameMode.h">
       <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Private">
+      <UniqueIdentifier>{D2F4842B-BBDC-35B5-85B4-9B71BDE2BA6A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Private\CameraFacingSprite.cpp">
+      <Filter>Source\MyProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\Private\Cam_Player.cpp">
+      <Filter>Source\MyProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\Private\Test_Mc.cpp">
+      <Filter>Source\MyProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyProject\Public">
+      <UniqueIdentifier>{17AF90F8-BCFF-35EC-B42A-50C00E45B19B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyProject\Public\CameraFacingSprite.h">
+      <Filter>Source\MyProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProject\Public\Cam_Player.h">
+      <Filter>Source\MyProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProject\Public\Test_Mc.h">
+      <Filter>Source\MyProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
