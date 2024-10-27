@@ -1,0 +1,80 @@
+-c
+-pipe
+-I"."
+-I"../Intermediate/Build/Mac/UnrealEditor/Inc/CoreUObject/UHT"
+-I"../Intermediate/Build/Mac/UnrealEditor/Inc/CoreUObject/VerseVMBytecode"
+-I"Runtime/CoreUObject/Public"
+-I"Runtime/CoreUObject/Internal"
+-I"Runtime/Core/Public"
+-I"Runtime/Core/Internal"
+-I"Runtime/TraceLog/Public"
+-Wall
+-Werror
+-Wdelete-non-virtual-dtor
+-Wenum-conversion
+-Wbitfield-enum-conversion
+-Wno-enum-enum-conversion
+-Wno-enum-float-conversion
+-Wno-ambiguous-reversed-operator
+-Wno-deprecated-anon-enum-enum-conversion
+-Wno-deprecated-volatile
+-Wno-unused-but-set-variable
+-Wno-unused-but-set-parameter
+-Wno-ordered-compare-function-pointers
+-Wno-bitwise-instead-of-logical
+-Wno-deprecated-copy
+-Wno-deprecated-copy-with-user-provided-copy
+-Wno-gnu-string-literal-operator-template
+-Wno-inconsistent-missing-override
+-Wno-invalid-offsetof
+-Wno-switch
+-Wno-tautological-compare
+-Wno-unknown-pragmas
+-Wno-unused-function
+-Wno-unused-lambda-capture
+-Wno-unused-local-typedef
+-Wno-unused-private-field
+-Wno-unused-variable
+-Wno-undefined-var-template
+-Wshadow -Wno-error=shadow
+-Wundef
+-Wno-float-conversion
+-Wno-implicit-float-conversion
+-Wno-implicit-int-conversion
+-Wno-c++11-narrowing
+-fdiagnostics-absolute-paths
+-fdiagnostics-color
+-Wno-unknown-warning-option
+-Wno-range-loop-analysis
+-Wno-single-bit-bitfield-constant-conversion
+-Wno-shadow
+-Wno-invalid-unevaluated-string
+-Wno-deprecated-this-capture
+-ffp-contract=off
+-fno-delete-null-pointer-checks
+-O3
+-fexceptions
+-DPLATFORM_EXCEPTIONS_DISABLED=0
+-gdwarf-4
+-fexceptions
+-DPLATFORM_EXCEPTIONS_DISABLED=0
+-fvisibility-ms-compat
+-fvisibility-inlines-hidden
+-frtti
+-fmessage-length=0
+-fpascal-strings
+-fasm-blocks
+-ffp-contract=off
+-arch arm64
+-isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+-mmacosx-version-min=13.00
+-include-pch "/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Intermediate/Build/Mac/arm64/MyProjectEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch"
+-x objective-c++-header
+-std=c++20
+-fpch-validate-input-files-content
+-stdlib=libc++
+-fpch-instantiate-templates
+"/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Intermediate/Build/Mac/arm64/MyProjectEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h"
+-MD -MF"/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Intermediate/Build/Mac/arm64/MyProjectEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.d"
+-o "/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Intermediate/Build/Mac/arm64/MyProjectEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch"
+-DUE_USE_SWIFT_UI_MAIN=0

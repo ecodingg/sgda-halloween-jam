@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\rexer\\Documents\\GitHub\\sgda-halloween-jam\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
-		"C:\\Users\\rexer\\Documents\\GitHub\\sgda-halloween-jam\\MyProject\\Source\\MyProject.Target.cs",
-		"C:\\Users\\rexer\\Documents\\GitHub\\sgda-halloween-jam\\MyProject\\Source\\MyProjectEditor.Target.cs"
+		"/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Source/MyProject/MyProject.Build.cs",
+		"/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Source/MyProject.Target.cs",
+		"/Users/eden/Documents/GitHub/sgda-halloween-jam/MyProject/Source/MyProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }
