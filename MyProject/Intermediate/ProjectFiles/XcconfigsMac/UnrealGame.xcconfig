@@ -1,0 +1,47 @@
+#include? "/Users/Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Versions.xcconfig"
+#include? "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Xcode/ContentOnlySettings.xcconfig"
+
+// Unreal project-wide variables
+UE_XCODE_BUILD_MODE = Default
+UE_PRODUCT_NAME = UnrealGame
+UE_PRODUCT_NAME_STRIPPED = UnrealGame
+UE_DISPLAY_NAME = $(UE_PRODUCT_NAME)
+UE_SIGNING_PREFIX = com.YourCompany
+UE_PLATFORM_NAME = Mac
+UE_TARGET_NAME = UnrealGame
+UE_TARGET_PLATFORM_NAME = Mac
+UE_ENGINE_DIR = /Users/Shared/Epic Games/UE_5.4/Engine
+UE_BINARIES_DIR = /Users/Shared/Epic Games/UE_5.4/Engine/Binaries/Mac
+UE_STAGED_BINARIES_DIR_BASE = Engine
+
+// Constant settings (same for all platforms and targets)
+INFOPLIST_OUTPUT_FORMAT = xml
+COMBINE_HIDPI_IMAGES = YES
+USE_HEADERMAP = NO
+ONLY_ACTIVE_ARCH = YES
+
+// Platform settings
+SUPPORTED_PLATFORMS = macosx
+SDKROOT = macosx
+
+// These settings combined will tell Xcode to write to Binaries/Mac (instead of something like Binaries/Development-iphoneos)
+SYMROOT = /Users/Shared/Epic Games/UE_5.4/Engine/Binaries
+CONFIGURATION = 
+EFFECTIVE_PLATFORM_NAME = Mac
+
+// Project settings
+TARGETED_DEVICE_FAMILY = 
+PRODUCT_BUNDLE_IDENTIFIER = $(UE_SIGNING_PREFIX).$(UE_PRODUCT_NAME_STRIPPED)
+MACOSX_DEPLOYMENT_TARGET = 13.00
+
+// Plist settings
+INFOPLIST_FILE = ../../../../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Mac/Resources/Info.Template.plist
+GENERATE_INFOPLIST_FILE = YES
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+CURRENT_PROJECT_VERSION = $(UE_MAC_BUILD_VERSION)
+MARKETING_VERSION = 5.4.4
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.games
+
+// Code-signing settings
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = 

@@ -1,0 +1,16 @@
+// pull in the shared settings for all configs for this target
+#include "UnrealGame.xcconfig"
+
+// Unreal per-config variables
+UE_TARGET_CONFIG = Development
+UE_UBT_BINARY_SUBPATH = UnrealGame
+UE_MAC_EXECUTABLE_NAME = UnrealGame
+CODE_SIGN_ENTITLEMENTS = ../../../../../../../Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/Sandbox.Server.entitlements
+
+// this variable trickery will set the proper name for debugging, building, and archiving,
+// where archiving (the '_install' action type) may need a differnet name so it shows up nicely
+// on end-users machines in Finder, Spotlight, etc. The trailing _ on the next line is correct.
+PRODUCT_NAME_ = UnrealGame
+PRODUCT_NAME_build = $(PRODUCT_NAME_)
+PRODUCT_NAME_install = UnrealGame
+PRODUCT_NAME = $(PRODUCT_NAME_$(ACTION))

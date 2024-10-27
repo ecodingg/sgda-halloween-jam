@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "MyProject",
-			"Path": "..\\Source\\MyProject.Target.cs",
+			"Path": "../Source/MyProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "MyProjectEditor",
-			"Path": "..\\Source\\MyProjectEditor.Target.cs",
+			"Path": "../Source/MyProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

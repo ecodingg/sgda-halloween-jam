@@ -1,0 +1,16 @@
+// pull in the shared settings for all configs for this target
+#include "MyProject.xcconfig"
+
+// Unreal per-config variables
+UE_TARGET_CONFIG = Development
+UE_UBT_BINARY_SUBPATH = MyProject
+UE_MAC_EXECUTABLE_NAME = MyProject
+CODE_SIGN_ENTITLEMENTS = ../../Build/Mac/Resources/Sandbox.Server.entitlements
+
+// this variable trickery will set the proper name for debugging, building, and archiving,
+// where archiving (the '_install' action type) may need a differnet name so it shows up nicely
+// on end-users machines in Finder, Spotlight, etc. The trailing _ on the next line is correct.
+PRODUCT_NAME_ = MyProject
+PRODUCT_NAME_build = $(PRODUCT_NAME_)
+PRODUCT_NAME_install = MyProject
+PRODUCT_NAME = $(PRODUCT_NAME_$(ACTION))
