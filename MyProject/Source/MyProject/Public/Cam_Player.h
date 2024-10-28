@@ -15,10 +15,10 @@ public:
 	// Sets default values for this actor's properties
 	ACam_Player();
 
-	UFUNCTION(BlueprintPure, Category = "Pickup");
+	UFUNCTION(BlueprintPure, Category = "Pickup")
 	bool IsPickupActive() const ; // test boolean
 
-	UFUNCTION(BlueprintCallable, Category = "Pickup");
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
 	void SetPickupActive(bool NewActiveState);
 
 protected:

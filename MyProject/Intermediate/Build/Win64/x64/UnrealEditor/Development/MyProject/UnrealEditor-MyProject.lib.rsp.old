@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\CameraFacingSprite.gen.cpp.obj"
+"C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Cam_Player.gen.cpp.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.init.gen.cpp.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProjectCharacter.gen.cpp.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProjectGameMode.gen.cpp.obj"
@@ -17,5 +18,6 @@
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProjectGameMode.cpp.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\CameraFacingSprite.cpp.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Test_Mc.cpp.obj"
+"C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Cam_Player.cpp.obj"
 "C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Default.rc2.res"
 /OUT:"C:\Users\Helen\Desktop\Game Projects\sgda-halloween-jam\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\UnrealEditor-MyProject.lib"
