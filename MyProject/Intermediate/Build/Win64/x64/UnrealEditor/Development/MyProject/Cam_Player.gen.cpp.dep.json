@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\helen\\desktop\\game projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\cam_player.gen.cpp",
+        "Source": "c:\\users\\shadow\\documents\\unreal projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\cam_player.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\helen\\desktop\\game projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\shadow\\documents\\unreal projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\helen\\desktop\\game projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
-            "c:\\users\\helen\\desktop\\game projects\\sgda-halloween-jam\\myproject\\source\\myproject\\public\\cam_player.h",
-            "c:\\users\\helen\\desktop\\game projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\cam_player.generated.h"
+            "c:\\users\\shadow\\documents\\unreal projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\shadow\\documents\\unreal projects\\sgda-halloween-jam\\myproject\\source\\myproject\\public\\cam_player.h",
+            "c:\\users\\shadow\\documents\\unreal projects\\sgda-halloween-jam\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\cam_player.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

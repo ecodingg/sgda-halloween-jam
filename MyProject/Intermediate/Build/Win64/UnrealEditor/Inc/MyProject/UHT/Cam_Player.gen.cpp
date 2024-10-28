@@ -25,7 +25,7 @@ struct Z_Construct_UFunction_ACam_Player_IsPickupActive_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Pickup" },
+		{ "Category", "Test Class" },
 		{ "ModuleRelativePath", "Public/Cam_Player.h" },
 	};
 #endif // WITH_METADATA
@@ -72,7 +72,7 @@ struct Z_Construct_UFunction_ACam_Player_SetPickupActive_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Pickup" },
+		{ "Category", "Test Class" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// test boolean\n" },
 #endif
@@ -142,8 +142,8 @@ struct Z_Construct_UClass_ACam_Player_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACam_Player_IsPickupActive, "IsPickupActive" }, // 1426033222
-		{ &Z_Construct_UFunction_ACam_Player_SetPickupActive, "SetPickupActive" }, // 1447148671
+		{ &Z_Construct_UFunction_ACam_Player_IsPickupActive, "IsPickupActive" }, // 2158482676
+		{ &Z_Construct_UFunction_ACam_Player_SetPickupActive, "SetPickupActive" }, // 2755571145
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -188,14 +188,14 @@ ACam_Player::~ACam_Player() {}
 // End Class ACam_Player
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_Helen_Desktop_Game_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Shadow_Documents_Unreal_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACam_Player, ACam_Player::StaticClass, TEXT("ACam_Player"), &Z_Registration_Info_UClass_ACam_Player, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACam_Player), 810992538U) },
+		{ Z_Construct_UClass_ACam_Player, ACam_Player::StaticClass, TEXT("ACam_Player"), &Z_Registration_Info_UClass_ACam_Player, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACam_Player), 3519653812U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Helen_Desktop_Game_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_333599261(TEXT("/Script/MyProject"),
-	Z_CompiledInDeferFile_FID_Users_Helen_Desktop_Game_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Helen_Desktop_Game_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Shadow_Documents_Unreal_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_886736951(TEXT("/Script/MyProject"),
+	Z_CompiledInDeferFile_FID_Users_Shadow_Documents_Unreal_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Shadow_Documents_Unreal_Projects_sgda_halloween_jam_MyProject_Source_MyProject_Public_Cam_Player_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
